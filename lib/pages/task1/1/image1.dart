@@ -1,17 +1,19 @@
 
 import 'package:flutter/material.dart';
-import 'package:myhomeapp/pages/task1/widgets/my_layout.dart';
-import 'package:myhomeapp/pages/task1/widgets/new_screen.dart';
+import 'package:myhomeapp/pages/task1/1/widgets/my_layout.dart';
+import 'package:myhomeapp/pages/task1/1/widgets/new_screen.dart';
 
 
-class Task1 extends StatefulWidget {
-  const Task1({super.key});
+
+
+class ImageOne extends StatefulWidget {
+  const ImageOne({super.key});
 
   @override
-  State<Task1> createState() => _Task1State();
+  State<ImageOne> createState() => _ImageOneState();
 }
 
-class _Task1State extends State<Task1> {
+class _ImageOneState extends State<ImageOne> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
