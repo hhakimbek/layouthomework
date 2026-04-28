@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myhomeapp/pages/task1/1/image1.dart';
 import 'package:myhomeapp/pages/task1/2/image2.dart';
 import 'package:myhomeapp/pages/task1/3/image3.dart';
+import 'package:myhomeapp/pages/task1/task4/image4.dart';
 
 void main() {
   runApp(
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const Image3(),
+      home: const Image4(),
     );
   }
 }
