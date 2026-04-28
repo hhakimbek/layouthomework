@@ -6,14 +6,14 @@ import 'package:myhomeapp/pages/task1/1/widgets/new_screen.dart';
 
 
 
-class ImageOne extends StatefulWidget {
-  const ImageOne({super.key});
+class Image1 extends StatefulWidget {
+  const Image1({super.key});
 
   @override
-  State<ImageOne> createState() => _ImageOneState();
+  State<Image1> createState() => _Image1State();
 }
 
-class _ImageOneState extends State<ImageOne> {
+class _Image1State extends State<Image1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
