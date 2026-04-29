@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:myhomeapp/widgets/my_container.dart';
+import '../../../../widgets/my_container.dart';
 
 class Mosaic7 extends StatelessWidget {
   const Mosaic7({super.key});

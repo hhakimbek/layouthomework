@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:myhomeapp/pages/task1/1/widgets/my_layout.dart';
-import 'package:myhomeapp/pages/task1/1/widgets/new_screen.dart';
+import 'package:myhomeapp/tasks/pages/task1/1/widgets/my_layout.dart';
+import 'package:myhomeapp/tasks/pages/task1/1/widgets/new_screen.dart';
 
 
 
