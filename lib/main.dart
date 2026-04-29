@@ -3,6 +3,10 @@ import 'package:myhomeapp/pages/task1/1/image1.dart';
 import 'package:myhomeapp/pages/task1/2/image2.dart';
 import 'package:myhomeapp/pages/task1/3/image3.dart';
 import 'package:myhomeapp/pages/task1/task4/image4.dart';
+import 'package:myhomeapp/pages/task2/task2.dart';
+import 'package:myhomeapp/pages/task3/my_calculator.dart';
+import 'package:myhomeapp/pages/task4/settings_page.dart';
+import 'package:myhomeapp/pages/task5/contacts_screen.dart';
 
 void main() {
   runApp(
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const Image4(),
+      home: const ContactsScreen(),
     );
   }
 }
