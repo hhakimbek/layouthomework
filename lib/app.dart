@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myhomeapp/pages/calculator_app.dart';
+import 'package:myhomeapp/pages/image_with_gradient.dart';
+import 'package:myhomeapp/pages/insta_register.dart';
 import 'package:myhomeapp/pages/splash_screen.dart';
+import 'package:myhomeapp/pages/split_login.dart';
 import 'package:myhomeapp/pages/split_screen.dart';
 import 'package:myhomeapp/pages/test.dart';
 import 'package:myhomeapp/pages/text_form_field_example.dart';
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TextFormFieldExample2(),
+      home: SplitLogin(),
     );
   }
 }
