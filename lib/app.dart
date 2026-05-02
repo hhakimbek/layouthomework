@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:myhomeapp/counter/counter_app.dart';
 import 'package:myhomeapp/pages/calculator_app.dart';
 import 'package:myhomeapp/pages/image_with_gradient.dart';
 import 'package:myhomeapp/pages/insta_register.dart';
+import 'package:myhomeapp/pages/podcast_splash_screen.dart';
 import 'package:myhomeapp/pages/splash_screen.dart';
 import 'package:myhomeapp/pages/split_login.dart';
 import 'package:myhomeapp/pages/split_screen.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SplitLogin(),
+      home: CounterScreenBody(),
     );
   }
 }
