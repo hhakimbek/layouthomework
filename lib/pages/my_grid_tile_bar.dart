@@ -18,7 +18,7 @@ class MyGridTileBar extends StatelessWidget {
 
                 leading: Icon(Icons.person),
 
-                title: Text('Flutter'),
+                title: Text('Flutterd'),
 
                 trailing: Icon(Icons.menu), // Icon
               ),

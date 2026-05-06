@@ -6,6 +6,7 @@ import 'package:myhomeapp/pages/image_with_gradient.dart';
 import 'package:myhomeapp/pages/insta_register.dart';
 import 'package:myhomeapp/pages/my_grid_tile.dart';
 import 'package:myhomeapp/pages/my_grid_tile_bar.dart';
+import 'package:myhomeapp/pages/my_grid_view.dart';
 import 'package:myhomeapp/pages/podcast_splash_screen.dart';
 import 'package:myhomeapp/pages/splash_screen.dart';
 import 'package:myhomeapp/pages/split_login.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyGridTileBar(),
+      home: MyGridView(),
     );
   }
 }
