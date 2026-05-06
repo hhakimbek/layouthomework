@@ -12,6 +12,7 @@ import 'package:myhomeapp/pages/splash_screen.dart';
 import 'package:myhomeapp/pages/split_login.dart';
 import 'package:myhomeapp/pages/split_screen.dart';
 import 'package:myhomeapp/pages/storage_ctn.dart';
+import 'package:myhomeapp/pages/straggered_grid_view.dart';
 import 'package:myhomeapp/pages/test.dart';
 import 'package:myhomeapp/pages/text_form_field_example.dart';
 import 'package:myhomeapp/pages/text_form_field_example2.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyGridView(),
+      home: StraggeredGridViewPage(),
     );
   }
 }
